@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>音乐播放器</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div id="music-box">	
+		<div class="left-box">
+			<table>
+				<thead>
+					<tr>
+						<th>歌名</th>
+						<th>歌手</th>
+					</tr>
+				</thead>
+				<tbody>	
+				</tbody>
+			</table>
+		</div>
+		<div class="right-box">
+			<div class="lyrics">
+				<h1>童话镇</h1>
+				<h2>作曲：暗杠</h2>
+				<h2>作词：竹君</h2>
+				<p>听说白雪公主在逃跑</p>
+				<p>小红帽在担心大灰狼</p>
+				<p>听说疯帽喜欢爱丽丝</p>
+				<p>丑小鸭会变成白天鹅</p>
+			</div>
+		</div>
+		<div class="foot-box">
+			<audio src="" autoplay="autoplay"></audio>
+			<div id="play-progress">
+				<div class="time-bar">
+					<span id="song">童话镇</span>
+					<span id="singer">（陈一发）</span>
+					<div id="line1"></div>
+					<div id="circle"></div>
+					<div id="line"></div>
+					<span id="cur-time">00:00&nbsp</span>
+					<span id="end-time">/&nbsp00:00</span>
+				</div>
+				<div id="order-repeat">
+					<span class="glyphicon glyphicon-menu-hamburger" id="order"></span>
+					<span class="glyphicon glyphicon-repeat" id="repeat"></span>
+				</div>
+				<div id="volume-up-off">
+					<span class="glyphicon glyphicon-volume-up" id="volume-up"></span>
+					<span class="glyphicon glyphicon-volume-off" id="volume-off"></span>
+				</div>
+				
+			</div>
+			<div class="play-operation">
+				<span class="glyphicon glyphicon-backward" id="prev"></span>
+				<div id="play-pause">
+					<span class="glyphicon glyphicon-play" id="play"></span>
+					<span class="glyphicon glyphicon-pause" id="pause"></span>
+				</div>
+				<span class="glyphicon glyphicon-forward" id="next"></span>
+			</div>
+		</div>	
+	</div>
+
+	<script src="js/fun1.js"></script>
+</body>
+</html>
