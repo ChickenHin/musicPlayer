@@ -149,6 +149,7 @@ tbody tr:hover {
 }
 #line {
 	background: #303150;
+	cursor: pointer;
 	height: 6px;
 	width: 395px;
 	position: absolute;
